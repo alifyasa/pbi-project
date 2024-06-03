@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PBI Project</string>
+    <string name="article_title">Article Title</string>
+    <string name="article_description">Article Description</string>
 </resources>
