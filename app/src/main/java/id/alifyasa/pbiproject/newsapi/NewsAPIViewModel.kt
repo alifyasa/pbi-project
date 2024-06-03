@@ -15,7 +15,7 @@ class NewsAPIViewModel : ViewModel() {
         fetchTopHeadlines()
     }
 
-    private fun fetchTopHeadlines() {
+    fun fetchTopHeadlines() {
         NewsAPIClient.instance.fetchTopHeadlines().enqueue(object : Callback<NewsAPIResponse> {
             override fun onResponse(
                 call: Call<NewsAPIResponse>,
